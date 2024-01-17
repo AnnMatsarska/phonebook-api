@@ -27,11 +27,11 @@ export const ContactList = () => {
       {isLoading && <Loader />}
       {error && <p>{error}</p>}
       {!isLoading &&
-        filteredContacts?.map(({ name, id, number }) => (
+        filteredContacts?.map(({ name, _id, number }) => (
           <ContactItem
             name={name}
-            id={id}
-            key={id}
+            id={_id}
+            key={_id}
             number={number}
             deleteContact={handleDeleteContact}
           />

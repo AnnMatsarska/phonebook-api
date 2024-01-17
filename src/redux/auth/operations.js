@@ -8,7 +8,7 @@ import {
 } from 'services/phonebook-api';
 
 export const signUpThunk = createAsyncThunk(
-  'auth/signup',
+  'auth/register',
   async (formData, thunkApi) => {
     try {
       const response = await requestUserSignUp(formData);

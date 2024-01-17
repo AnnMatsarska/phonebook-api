@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const phonebookInstance = axios.create({
-  baseURL: 'https://connections-api.herokuapp.com',
+  baseURL: 'http://localhost:8001/api',
 });
 
 export const setToken = token => {
@@ -9,7 +9,7 @@ export const setToken = token => {
 };
 
 export const requestUserSignUp = async formData => {
-  const { data } = await phonebookInstance.post('/users/signup', formData);
+  const { data } = await phonebookInstance.post('/users/register', formData);
   setToken(data.token);
 
   return data;
