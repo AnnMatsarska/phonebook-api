@@ -12,8 +12,8 @@ import { notifications } from 'services/notifications';
 const authInitialState = {
   token: null,
   user: {
-    email: null,
     name: null,
+    email: null,
   },
   authenticated: false,
   isLoading: false,

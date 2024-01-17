@@ -21,6 +21,7 @@ export const UserMenu = () => {
 
   const handleOpenUserMenu = event => {
     setAnchorElUser(event.currentTarget);
+    console.log(user);
   };
 
   const handleCloseUserMenu = () => {
@@ -63,7 +64,7 @@ export const UserMenu = () => {
 
       <Box sx={{ flexGrow: 0 }}>
         <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-          <Avatar {...stringAvatar(user?.name)} />
+          <Avatar {...stringAvatar(user.name)} />
         </IconButton>
         <Menu
           sx={{ mt: '45px' }}
