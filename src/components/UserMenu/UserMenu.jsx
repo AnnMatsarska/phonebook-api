@@ -21,7 +21,6 @@ export const UserMenu = () => {
 
   const handleOpenUserMenu = event => {
     setAnchorElUser(event.currentTarget);
-    console.log(user.avatar);
   };
 
   const handleCloseUserMenu = () => {
