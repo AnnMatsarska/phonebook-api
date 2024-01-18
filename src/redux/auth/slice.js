@@ -14,6 +14,7 @@ const authInitialState = {
   user: {
     name: null,
     email: null,
+    avatar: null,
   },
   authenticated: false,
   isLoading: false,
