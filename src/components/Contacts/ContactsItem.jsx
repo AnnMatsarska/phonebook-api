@@ -3,7 +3,7 @@ import { IconButton, ListItem, ListItemText, SvgIcon } from '@mui/material';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 import DeleteIcon from '@mui/icons-material/Delete';
 
-export const ContactItem = ({ _id, name, number, deleteContact }) => {
+export const ContactItem = ({ id, name, number, deleteContact }) => {
   return (
     <ListItem
       sx={{
@@ -27,7 +27,7 @@ export const ContactItem = ({ _id, name, number, deleteContact }) => {
         }
         secondary={number}
       />
-      <IconButton type="button" onClick={() => deleteContact(_id)}>
+      <IconButton type="button" onClick={() => deleteContact(id)}>
         <SvgIcon sx={{ fontSize: '30px' }}>
           <DeleteIcon />
         </SvgIcon>
