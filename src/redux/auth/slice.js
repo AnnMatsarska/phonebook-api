@@ -7,7 +7,6 @@ import {
   logoutThunk,
   refreshCurrentUserThunk,
 } from './operations';
-import { notifications } from 'services/notifications';
 
 const authInitialState = {
   token: null,
@@ -30,7 +29,7 @@ const handleRejected = (state, action) => {
   state.isLoading = false;
   state.error = action.payload;
   if (state.error === 400) {
-    toast.error('The email or password are incorrect', notifications);
+    toast.error('The email or password are incorrect');
   }
 };
 

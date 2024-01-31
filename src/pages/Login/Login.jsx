@@ -42,6 +42,7 @@ const Login = () => {
 
   const onSubmit = data => {
     dispatch(loginThunk(data));
+
     reset();
   };
 

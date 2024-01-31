@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useForm } from 'react-hook-form';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { notifications } from 'services/notifications';
 
 import { selectContacts } from 'redux/contacts/selectors';
 import { addContactThunk } from 'redux/contacts/operations';
@@ -27,22 +26,20 @@ export const ContactForm = () => {
   const onSubmit = contact => {
     if (Array.isArray(contacts)) {
       if (hasNameDuplicate(contact.name)) {
-        toast.info(` ${contact.name} is already in contacts`, notifications);
+        toast.info(` ${contact.name} is already in contacts`);
         return;
       }
 
       if (hasNamberDuplicate(contact.number)) {
-        toast.info(
-          ` Number ${contact.number} is already in contacts`,
-          notifications
-        );
+        toast.info(` Number ${contact.number} is already in contacts`);
         return;
       }
     }
     try {
       dispatch(addContactThunk(contact));
+      toast.success('Contact added successfully');
     } catch (error) {
-      toast.error(`Something went wrong.`, notifications);
+      toast.error(`Something went wrong.`);
     }
 
     reset();
@@ -76,7 +73,7 @@ export const ContactForm = () => {
         </Label>
         <Button type="submit">Add contact</Button>
       </Form>
-      <ToastContainer />
+      {/* <ToastContainer /> */}
     </>
   );
 };

@@ -41,7 +41,7 @@ const contactSlice = createSlice({
         state.isLoading = false;
         state.error = null;
         state.items = state.items.filter(
-          contact => contact._id !== action.payload._id
+          contact => contact._id !== action.payload
         );
       })
       .addMatcher(
