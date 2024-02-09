@@ -3,12 +3,12 @@ import styled from 'styled-components';
 export const Title = styled.h1`
   font-size: 50px;
   font-weight: 400;
-  color: rgb(37, 32, 73);
+  color: var(--primary-color-violet);
 `;
 
 export const SpanText = styled.span`
   font-weight: 700;
-  color: rgb(207, 149, 11);
+  color: var(--primary-color-yellow);
 `;
 
 export const Section = styled.section`

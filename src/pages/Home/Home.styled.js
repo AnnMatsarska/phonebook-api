@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.div`
   width: 600px;
@@ -13,17 +14,27 @@ export const Wrapper = styled.div`
 export const Title = styled.h1`
   font-size: 64px;
   font-weight: 400;
-  color: rgb(37, 32, 73);
+  color: var(--primary-color-violet);
 `;
 
 export const SubTitle = styled.h3`
   margin-top: 30px;
-  // font-size: 28px;
+  font-size: 22px;
   font-weight: 400;
-  color: rgb(207, 149, 11);
+  color: var(--primary-color-yellow);
 `;
 
 export const SpanText = styled.span`
   font-weight: 700;
-  color: rgb(207, 149, 11);
+  color: var(--primary-color-yellow);
+`;
+
+export const StyledLink = styled(Link)`
+  display: inline-block;
+  text-decoration: none;
+  color: var(--primary-color-violet);
+
+  &:hover,
+  &:focus {
+  }
 `;

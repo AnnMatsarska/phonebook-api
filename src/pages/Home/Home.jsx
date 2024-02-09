@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import { Title, SubTitle, Wrapper, SpanText } from './Home.styled';
+// import { Link } from 'react-router-dom';
+import { Title, SubTitle, Wrapper, SpanText, StyledLink } from './Home.styled';
 import { useSelector } from 'react-redux';
 import { selectAuthAuthenticated } from 'redux/auth/selectors';
 
@@ -16,27 +16,10 @@ const HomePage = () => {
           <SubTitle>CREATE - STORE - FIND</SubTitle>
         ) : (
           <SubTitle>
-            <Link
-              to="/register"
-              style={{
-                textDecoration: 'none',
-                color: 'rgb(37, 32, 73)',
-              }}
-            >
-              Register
-            </Link>{' '}
-            or
-            <Link
-              to="/login"
-              style={{
-                textDecoration: 'none',
-                color: 'rgb(37, 32, 73)',
-              }}
-            >
-              {' '}
-              sign in{' '}
-            </Link>
-            to manage your contacts.
+            <StyledLink to="/register">Register </StyledLink>
+            <span style={{ margin: '0 5px' }}>or</span>
+            <StyledLink to="/login"> sign in</StyledLink>
+            <span style={{ margin: '0 5px' }}>to manage your contacts.</span>
           </SubTitle>
         )}
       </Wrapper>

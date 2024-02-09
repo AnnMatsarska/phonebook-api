@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 export const UserText = styled.p`
   text-decoration: none;
   font-family: Helvetica Neue;
-  color: rgb(37, 32, 73);
+  color: var(--primary-color-violet);
   font-weight: 700;
   font-size: 20px;
   outline: none;
@@ -19,5 +19,5 @@ export const UserText = styled.p`
 `;
 
 export const UserName = styled.span`
-  color: rgb(207, 149, 11);
+  color: var(--primary-color-yellow);
 `;

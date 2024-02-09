@@ -9,7 +9,7 @@ export const NavList = styled.ul`
 export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   font-family: Helvetica Neue;
-  color: rgb(37, 32, 73);
+  color: var(--primary-color-violet);
   font-weight: 700;
   font-size: 20px;
   outline: none;
@@ -21,13 +21,13 @@ export const StyledNavLink = styled(NavLink)`
 
   &:hover,
   &:focus {
-    background-color: rgb(207, 149, 11, 0.7);
+    background-color: var(--secondary-color-yellow-transparent);
 
     border-radius: 15px;
   }
 
   &.active {
-    background-color: rgb(207, 149, 11, 0.7);
+    background-color: var(--secondary-color-yellow-transparent);
 
     border-radius: 15px;
   }

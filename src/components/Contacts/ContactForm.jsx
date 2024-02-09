@@ -73,7 +73,6 @@ export const ContactForm = () => {
         </Label>
         <Button type="submit">Add contact</Button>
       </Form>
-      {/* <ToastContainer /> */}
     </>
   );
 };
