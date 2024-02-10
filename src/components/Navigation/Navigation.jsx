@@ -20,10 +20,10 @@ export const Navigation = () => {
           ) : (
             <>
               <li>
-                <StyledNavLink to="/register">Register</StyledNavLink>
+                <StyledNavLink to="/register">Sign up</StyledNavLink>
               </li>
               <li>
-                <StyledNavLink to="/login">Sign In</StyledNavLink>
+                <StyledNavLink to="/login">Sign in</StyledNavLink>
               </li>
             </>
           )}

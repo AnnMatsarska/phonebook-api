@@ -35,8 +35,6 @@ function Copyright(props) {
   );
 }
 
-// TODO remove, this demo shouldn't need to reset the theme.
-
 const defaultTheme = createTheme();
 
 const RegisterPage = () => {
@@ -124,8 +122,11 @@ const RegisterPage = () => {
                   component={NavLink}
                   sx={{
                     textDecoration: 'none',
-                    mr: 10,
-                    color: 'rgb(37, 32, 73)',
+                    mr: 3,
+                    color: 'var(--primary-color-violet)',
+                    '@media only screen and (min-width: 768px)': {
+                      mr: 10,
+                    },
                   }}
                 >
                   Already have an account? Sign in

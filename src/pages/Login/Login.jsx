@@ -62,7 +62,7 @@ const Login = () => {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Please sign in
+            Sign in
           </Typography>
           <Box
             component="form"
@@ -114,8 +114,10 @@ const Login = () => {
                   component={NavLink}
                   sx={{
                     textDecoration: 'none',
-                    ml: 10,
-                    color: 'rgb(37, 32, 73)',
+                    color: 'var(--primary-color-violet)',
+                    '@media only screen and (min-width: 768px)': {
+                      mr: 10,
+                    },
                   }}
                 >
                   {"Don't have an account? Sign Up"}

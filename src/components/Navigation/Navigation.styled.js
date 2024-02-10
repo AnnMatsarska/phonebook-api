@@ -3,7 +3,10 @@ import styled from 'styled-components';
 
 export const NavList = styled.ul`
   display: flex;
-  gap: 24px;
+
+  @media only screen and (min-width: 768px) {
+    gap: 24px;
+  }
 `;
 
 export const StyledNavLink = styled(NavLink)`
