@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.div`
   width: 300px;
-  margin-top: 50px;
+  margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
 
