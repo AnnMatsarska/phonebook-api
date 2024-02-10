@@ -12,9 +12,13 @@ export const Box = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   color: var(--primary-color-violet);
+
+  @media only screen and (min-width: 768px) {
+    font-size: 50px;
+  }
 `;
 
 export const SpanText = styled.span`
@@ -24,7 +28,5 @@ export const SpanText = styled.span`
 
 export const Section = styled.section`
   font-family: Helvetica Neue;
-  // width: 460px;
-  margin-top: 60px;
-  padding-left: 15px;
+  padding-top: 35px;
 `;

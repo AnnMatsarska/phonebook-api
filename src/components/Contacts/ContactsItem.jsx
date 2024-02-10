@@ -8,8 +8,10 @@ export const ContactItem = ({ id, name, number, deleteContact }) => {
     <ListItem
       sx={{
         p: '0',
-        width: '330px',
         mt: '10px',
+        '@media only screen and (min-width: 768px)': {
+          width: '330px',
+        },
       }}
     >
       <AccountCircleRoundedIcon

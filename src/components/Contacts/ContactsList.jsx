@@ -24,7 +24,7 @@ export const ContactList = () => {
   const filteredContacts = useSelector(selectVisibleContacts);
 
   return (
-    <List sx={{ width: '100%', maxWidth: 700, margin: 'auto' }}>
+    <List sx={{ margin: 'auto' }}>
       {isLoading && <Loader />}
       {error && <p>{error}</p>}
       {!isLoading &&
