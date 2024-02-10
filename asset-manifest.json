@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/phonebook-find-a-person/static/css/main.21db33dc.css",
-    "main.js": "/phonebook-find-a-person/static/js/main.d281e504.js",
+    "main.js": "/phonebook-find-a-person/static/js/main.5b486042.js",
     "static/js/304.2ee40308.chunk.js": "/phonebook-find-a-person/static/js/304.2ee40308.chunk.js",
-    "static/js/639.27bc9e83.chunk.js": "/phonebook-find-a-person/static/js/639.27bc9e83.chunk.js",
-    "static/js/93.816a441d.chunk.js": "/phonebook-find-a-person/static/js/93.816a441d.chunk.js",
+    "static/js/639.c4b1eca6.chunk.js": "/phonebook-find-a-person/static/js/639.c4b1eca6.chunk.js",
+    "static/js/93.540c9725.chunk.js": "/phonebook-find-a-person/static/js/93.540c9725.chunk.js",
     "static/js/880.71ce6f94.chunk.js": "/phonebook-find-a-person/static/js/880.71ce6f94.chunk.js",
     "static/js/66.a400e859.chunk.js": "/phonebook-find-a-person/static/js/66.a400e859.chunk.js",
     "static/js/786.f2af0cdc.chunk.js": "/phonebook-find-a-person/static/js/786.f2af0cdc.chunk.js",
     "index.html": "/phonebook-find-a-person/index.html",
     "main.21db33dc.css.map": "/phonebook-find-a-person/static/css/main.21db33dc.css.map",
-    "main.d281e504.js.map": "/phonebook-find-a-person/static/js/main.d281e504.js.map",
+    "main.5b486042.js.map": "/phonebook-find-a-person/static/js/main.5b486042.js.map",
     "304.2ee40308.chunk.js.map": "/phonebook-find-a-person/static/js/304.2ee40308.chunk.js.map",
-    "639.27bc9e83.chunk.js.map": "/phonebook-find-a-person/static/js/639.27bc9e83.chunk.js.map",
-    "93.816a441d.chunk.js.map": "/phonebook-find-a-person/static/js/93.816a441d.chunk.js.map",
+    "639.c4b1eca6.chunk.js.map": "/phonebook-find-a-person/static/js/639.c4b1eca6.chunk.js.map",
+    "93.540c9725.chunk.js.map": "/phonebook-find-a-person/static/js/93.540c9725.chunk.js.map",
     "880.71ce6f94.chunk.js.map": "/phonebook-find-a-person/static/js/880.71ce6f94.chunk.js.map",
     "66.a400e859.chunk.js.map": "/phonebook-find-a-person/static/js/66.a400e859.chunk.js.map",
     "786.f2af0cdc.chunk.js.map": "/phonebook-find-a-person/static/js/786.f2af0cdc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21db33dc.css",
-    "static/js/main.d281e504.js"
+    "static/js/main.5b486042.js"
   ]
 }
