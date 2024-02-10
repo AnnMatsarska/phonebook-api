@@ -58,7 +58,7 @@ const RegisterPage = () => {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'rgb(207, 149, 11)' }}>
+          <Avatar sx={{ m: 1, bgcolor: 'var(--primary-color-yellow)' }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
@@ -116,17 +116,13 @@ const RegisterPage = () => {
               Sign Up
             </StyledButton>
             <Grid container justifyContent="flex-end">
-              <Grid item>
+              <Grid item xs={12}>
                 <Link
                   to="/login"
                   component={NavLink}
                   sx={{
                     textDecoration: 'none',
-                    mr: 3,
                     color: 'var(--primary-color-violet)',
-                    '@media only screen and (min-width: 768px)': {
-                      mr: 10,
-                    },
                   }}
                 >
                   Already have an account? Sign in

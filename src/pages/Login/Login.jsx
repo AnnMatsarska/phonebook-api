@@ -58,7 +58,7 @@ const Login = () => {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'rgb(207, 149, 11)' }}>
+          <Avatar sx={{ m: 1, bgcolor: 'var(--primary-color-yellow)' }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
@@ -115,12 +115,9 @@ const Login = () => {
                   sx={{
                     textDecoration: 'none',
                     color: 'var(--primary-color-violet)',
-                    '@media only screen and (min-width: 768px)': {
-                      mr: 10,
-                    },
                   }}
                 >
-                  {"Don't have an account? Sign Up"}
+                  {"Don't have an account? Sign up"}
                 </Link>
               </Grid>
             </Grid>
