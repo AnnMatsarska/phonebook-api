@@ -18,7 +18,7 @@ export const Label = styled.label`
 
 export const Input = styled.input`
   display: block;
-  width: 300px;
+  width: 328px;
 
   border: 1px solid var(--primary-color-yellow);
 

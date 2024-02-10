@@ -4,7 +4,7 @@ export const Container = styled.div`
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  padding: 25px;
+  padding: 33px;
 `;
 export const HeaderNav = styled.header`
   display: flex;
