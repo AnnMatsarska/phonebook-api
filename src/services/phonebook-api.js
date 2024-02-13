@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const phonebookInstance = axios.create({
-  baseURL: 'https://api-phonebook-y9q1.onrender.com',
+  baseURL: 'https://api-phonebook-y9q1.onrender.com/api',
 });
 
 export const setToken = token => {
