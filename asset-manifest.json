@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/phonebook-find-a-person/static/css/main.21db33dc.css",
-    "main.js": "/phonebook-find-a-person/static/js/main.81ace17d.js",
+    "main.js": "/phonebook-find-a-person/static/js/main.74311d9c.js",
     "static/js/304.d566b6a0.chunk.js": "/phonebook-find-a-person/static/js/304.d566b6a0.chunk.js",
     "static/js/639.c4b1eca6.chunk.js": "/phonebook-find-a-person/static/js/639.c4b1eca6.chunk.js",
     "static/js/93.540c9725.chunk.js": "/phonebook-find-a-person/static/js/93.540c9725.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/786.f2af0cdc.chunk.js": "/phonebook-find-a-person/static/js/786.f2af0cdc.chunk.js",
     "index.html": "/phonebook-find-a-person/index.html",
     "main.21db33dc.css.map": "/phonebook-find-a-person/static/css/main.21db33dc.css.map",
-    "main.81ace17d.js.map": "/phonebook-find-a-person/static/js/main.81ace17d.js.map",
+    "main.74311d9c.js.map": "/phonebook-find-a-person/static/js/main.74311d9c.js.map",
     "304.d566b6a0.chunk.js.map": "/phonebook-find-a-person/static/js/304.d566b6a0.chunk.js.map",
     "639.c4b1eca6.chunk.js.map": "/phonebook-find-a-person/static/js/639.c4b1eca6.chunk.js.map",
     "93.540c9725.chunk.js.map": "/phonebook-find-a-person/static/js/93.540c9725.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.21db33dc.css",
-    "static/js/main.81ace17d.js"
+    "static/js/main.74311d9c.js"
   ]
 }
